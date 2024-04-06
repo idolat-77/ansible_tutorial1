@@ -1,17 +1,28 @@
+#my first playbook
 ---
 
 - hosts: all
   become: true
   tasks:
   
-  - name: update repository index
+  - name: update repository index      
     dnf:
       update_cache: yes
 
-  - name: install httpd package
+  - name: update all packages
+    dnf:
+      name: '*'
+      state: latest
+            
+  - name: install wget package
     dnf:
       name: wget
       state: latest
+
+  - name: install bc package
+    dnf:
+      name: bc
+      state: latest        
 
 
 
