@@ -10,7 +10,7 @@
       name: '*'
       state: latest
       allow_downgrade: yes
-      allowerasing: yes
+      # allowerasing: yes
 
   - name: install wget package
     dnf:

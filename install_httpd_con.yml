@@ -1,0 +1,19 @@
+#my first playbook
+---
+
+- hosts: all
+  become: true
+  # inventory: inventory_1
+  tasks:
+  
+  - name: update all packages, install newly listed package(s), and update repository
+    package:
+      name:
+       #- '*'
+        - "{{ new_pkg1 }}"
+        - "{{ new_pkg2 }}" 
+      state: latest
+      update_cache: yes
+      update_only: yes    
+
+

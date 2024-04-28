@@ -1,0 +1,4 @@
+192.168.0.27 new_pkg1=wget new_pkg2=httpd
+192.168.0.22 new_pkg1=wget new_pkg2=httpd
+192.168.0.37 new_pkg1=wget new_pkg2=httpd
+
