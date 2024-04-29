@@ -1,4 +1,4 @@
-192.168.0.27 #mail-server
-192.168.0.26 #webapp
-192.168.0.37 #samba
-#192.168.0.26
+192.168.0.53 #monitor-server.olatunji.net
+#192.168.0.26 #webapp
+192.168.0.37 #samba.olatunji.net
+192.168.0.27 #mail-server.olatunji.net

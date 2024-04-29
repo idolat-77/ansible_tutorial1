@@ -17,7 +17,11 @@
       name: 
         - wget
         - htop
-        - zip  
+        - zip
+        - unzip
+        - tar
+        - traceroute
+          #- mail
       state: latest
 
          

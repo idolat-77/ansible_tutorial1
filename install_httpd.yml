@@ -17,7 +17,9 @@
       name: 
         - wget
         - htop
-        - zip  
+        - zip
+        - bc
+        - tar  
       state: latest
 
          
